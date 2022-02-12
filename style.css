@@ -1,0 +1,120 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    height: 1080px;
+    background: #ECECED;
+}
+header{
+    background: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0,.3)100%);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: bold;
+}
+img{
+    margin: 30px;
+    height: 70px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    margin: 0px 30px;
+}
+a:hover{
+    color: #ECECED;
+}
+main{
+    background: #C4C4C4;
+    position: relative;
+    width: 900px;
+    height: 914px;
+    left: 540px;
+    top: 0px;   
+}
+h1{
+    font-size: 60px;
+}
+button{
+    background-color: #FF0000;
+    color: #ECECED;
+    width: 274px;
+    height: 90px;
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 166px;
+    background-color: #C4C4C4;
+    background:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)100%);
+}
+.video{
+    width: 250px;
+    height: 166px;
+    position: relative;
+    bottom: 30px;
+}
+.preco{
+    position: absolute;
+    width: 357px;
+    height: 533px;
+    left: 111px;
+    top: 190px;
+    text-align: justify;
+}
+.obs{
+    font-size: 16px;
+}
+.valor{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.footer{
+    position: relative;
+    bottom: 20px;
+    right: 80%;
+}
+.container{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 437px;
+    height: 166px;
+    color: #C4C4C4;
+    background-color: black;
+}
+.container:hover{
+    background-color: #ECECED;
+    color: black;
+    transition: 1s;
+}
+#ampl{
+    position: relative;
+    width: 597px;
+    height: 510px;
+    left: 120px;
+    top: 70px;
+    background: url(pair-trainers-removebg-preview.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.tenis{
+    position: relative;
+    top: 60px;
+    left: 18px;
+    height: 150px;
+}
